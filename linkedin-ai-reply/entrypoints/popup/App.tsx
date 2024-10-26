@@ -1,34 +1,31 @@
-import { useState } from 'react';
-import reactLogo from '@/assets/react.svg';
-import wxtLogo from '/wxt.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <div>
-        <a href="https://wxt.dev" target="_blank">
-          <img src={wxtLogo} className="logo" alt="WXT logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+    <div className="container mx-auto px-4 py-10">
+      {/* Logo and Title Section */}
+      <div className="flex flex-col items-center bg-gray-50 p-6 rounded-lg shadow-lg space-y-4">
+        <img
+          src="/wxt.svg"
+          alt="Assistant Logo"
+          className="h-12 w-12 rounded-full bg-gray-800 shadow-lg"
+        />
+        <h1 className="text-2xl font-extrabold text-gray-900">
+          LinkedIn Reply Assistant
+        </h1>
       </div>
-      <h1>WXT + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+
+      {/* Welcome Message Section */}
+      <div className="text-center mt-8 max-w-lg mx-auto">
+        <p className="text-lg font-semibold text-gray-700">
+          Simplify Your LinkedIn Conversations
+        </p>
+        <p className="mt-2 text-sm text-gray-600 leading-loose">
+          Our tool helps you create tailored responses for LinkedIn messages effortlessly.
+          Enter a prompt, and let us assist you in composing a thoughtful reply.
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the WXT and React logos to learn more
-      </p>
-    </>
+    </div>
   );
 }
 
