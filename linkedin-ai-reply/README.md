@@ -1,5 +1,9 @@
 # LinkedIn Auto-Reply Chrome Extension
 
+
+https://github.com/user-attachments/assets/5e20aca2-12f4-4f58-9511-87c3b2dec9d9
+
+
 ## ✨ Overview
 
 The **LinkedIn Auto-Reply Chrome Extension** boosts productivity by allowing users to quickly generate and insert customized replies directly into LinkedIn’s messaging interface. Built with seamless integration and a user-friendly interface, this extension simplifies the process of responding to messages efficiently.
